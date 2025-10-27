@@ -1,0 +1,12 @@
+python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source 0(live)
+
+label-studio start
+
+python detect.py --weights weights/yolov5x.pt --source "C:/Users/laneovo/Desktop/cars1.mp4" --view-img  (cars-video)
+python detect.py --weights weights/yolov5x.pt --source "C:/Users/laneovo/Desktop/plane.mp4" --view-img  (airplanes-video)
+python detect.py --weights weights/yolov5x.pt --source "C:/Users/laneovo/Desktop/traffic.mp4" --view-img  (traffic-video)
+python detect.py --weights weights/yolov5x.pt --source "C:/Users/laneovo/Desktop/cars2.mp4"--view-img
+
+python detect.py --weights weights/yolov5x.pt --source "C:/Users/laneovo/Desktop/cars3.mp4"--view-img
+
+
